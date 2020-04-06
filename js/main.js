@@ -35,7 +35,7 @@ sectionsDispRGB1.forEach(section => {
 
 	// load in our image
 	loader.add('image', originalImageSrc)
-	loader.add('displacement', '/assets/displacement1.jpg')
+	loader.add('displacement', '../assets/displacement1.jpg')
 	loader.load((loader, resources) => {
 
 		// once the image has loaded, now do things
@@ -275,7 +275,7 @@ sectionsLinewave.forEach(section => {
 
 	// load in our image
 	loader.add('image', originalImageSrc)
-	loader.add('displacement', '/assets/displacement7.jpg')
+	loader.add('displacement', '../assets/displacement7.jpg')
 	loader.load((loader, resources) => {
 
 		// once the image has loaded, now do things
