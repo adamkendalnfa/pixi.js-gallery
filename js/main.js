@@ -275,7 +275,7 @@ sectionsLinewave.forEach(section => {
 
 	// load in our image
 	loader.add('image', originalImageSrc)
-	loader.add('displacement', '../assets/displacement7.jpg')
+	loader.add('displacement', '/pixi.js-gallery/assets/displacement7.jpg')
 	loader.load((loader, resources) => {
 
 		// once the image has loaded, now do things
